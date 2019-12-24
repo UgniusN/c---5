@@ -10,6 +10,14 @@ namespace App4
     {
         static void Main(string[] args)
         {
+            for(int i = 1; i<=100; i++)
+            {
+                if(i % 3 == 0)
+                {
+                    Console.Write("{0} ", i);
+                }
+            }
+            Console.Read();
         }
     }
 }
