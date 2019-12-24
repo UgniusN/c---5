@@ -10,6 +10,15 @@ namespace App3
     {
         static void Main(string[] args)
         {
+            for(int eile = 1; eile <=4; eile++)
+            {
+                for(int zvaigzde = 1; zvaigzde <=eile; zvaigzde++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.Read();
         }
     }
 }
