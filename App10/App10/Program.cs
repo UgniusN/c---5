@@ -10,6 +10,18 @@ namespace App10
     {
         static void Main(string[] args)
         {
+            char[] symboliai = { 'a', 'b', 'c', 'e' };
+            foreach(char symbPrint in symboliai)
+            {
+                Console.Write("{0} ",symbPrint);
+            }
+            Console.WriteLine();
+            for (int i=3; i>=0; i--)
+            {
+                Console.Write("{0} ", symboliai[i]);
+            }
+
+            Console.Read();
         }
     }
 }
