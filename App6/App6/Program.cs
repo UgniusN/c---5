@@ -12,8 +12,13 @@ namespace App6
         {
             for (int i = 1; i<=10; i++)
             {
-                for()
+                for(int vidSkaic = 1; vidSkaic<=10; vidSkaic++)
+                {
+                    Console.Write("{0} * {1} = {2} ",i,vidSkaic,i*vidSkaic);
+                }
+                Console.WriteLine();
             }
+            Console.Read();
         }
     }
 }
