@@ -16,7 +16,7 @@ namespace App10
                 Console.Write("{0} ",symbPrint);
             }
             Console.WriteLine();
-            for (int i=3; i>=0; i--)
+            for (int i=symboliai.Length-1; i>=0; i--)
             {
                 Console.Write("{0} ", symboliai[i]);
             }
