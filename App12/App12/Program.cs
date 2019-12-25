@@ -10,14 +10,23 @@ namespace App12
     {
         static void Main(string[] args)
         {
-            int[] skaiciai = new int[100];
-            Random rand = new Random();
-            for(int i=0; i<100; i++)
+            int[] skaiciai = new int[5];
+            String a;
+
+            Console.WriteLine("Iveskite penkis kintamuosius");
+            for(int i=0; i<5; i++)
             {
-                skaiciai[i] = rand.Next();
+                a = Console.ReadLine();
+                skaiciai[i] = Convert.ToInt32(a);
             }
 
-            Console.WriteLine("MIN: {0} , MAX: {1}",skaiciai.Min() , skaiciai.Max());
+            int[] skaiciuKopija = skaiciai;
+
+            foreach(int skaicius in skaiciuKopija)
+            {
+                Console.Write("{0} ", skaicius);
+            }
+
             Console.Read();
         }
     }
