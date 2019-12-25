@@ -10,6 +10,21 @@ namespace App11
     {
         static void Main(string[] args)
         {
+            String manoVardas = "Ugnius";
+
+            foreach (char raide in manoVardas)
+            {
+                Console.Write("{0} ", raide);
+            }
+
+            Console.WriteLine();
+
+            for (int i=manoVardas.Length-1; i>=0; i--)
+            {
+                Console.Write("{0} ", manoVardas[i]);
+            }
+
+            Console.Read();
         }
     }
 }
