@@ -10,7 +10,7 @@ namespace App10
     {
         static void Main(string[] args)
         {
-            char[] symboliai = { 'a', 'b', 'c', 'e' };
+            char[] symboliai = { 'b', 'z', 'e', 'r' };
             foreach(char symbPrint in symboliai)
             {
                 Console.Write("{0} ",symbPrint);
@@ -21,6 +21,11 @@ namespace App10
                 Console.Write("{0} ", symboliai[i]);
             }
 
+            Array.Sort(symboliai);
+            foreach (char symbPrint in symboliai)
+            {
+                Console.Write("{0} ", symbPrint);
+            }
             Console.Read();
         }
     }

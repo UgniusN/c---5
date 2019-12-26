@@ -22,6 +22,12 @@ namespace App12
 
             int[] skaiciuKopija = skaiciai;
 
+            int[] skaiciuKopijaAntra = new int[5];
+            for(int i=0; i<5; i++)
+            {
+                skaiciuKopijaAntra[i] = skaiciai[i];
+            }
+
             foreach(int skaicius in skaiciuKopija)
             {
                 Console.Write("{0} ", skaicius);
