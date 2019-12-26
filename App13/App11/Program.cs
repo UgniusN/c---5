@@ -19,7 +19,7 @@ namespace App11
             }
             for(int i=0; i<3; i++)
             {
-                skaiciaiTrys[i+3] = skaiciaiDu[i];
+                skaiciaiTrys[i+skaiciai.Length] = skaiciaiDu[i];
             }
 
             for(int i=0; i<6; i++)
